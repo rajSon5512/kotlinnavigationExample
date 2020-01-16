@@ -47,7 +47,7 @@ class ChooseRecipientFragment : Fragment(), View.OnClickListener {
 
                     var bundle:Bundle= bundleOf("user_name" to name_editview.text.toString())
                     navController!!.navigate(R.id.action_chooseRecipientFragment_to_specifyAmountFragment,bundle)
-
+//hello
                 }
 
             }
